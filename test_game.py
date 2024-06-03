@@ -36,3 +36,17 @@ def test_evaluate_winner_player(): #testing if the player won
 def test_evaluate_full(): #testing if the board is full, no empty space
    result = tic_tac_toe_1d.evaluate ('xooxooxoxoxoxxoxooxo')
    assert result == '!' #if we the board is full, but there are no 'ooo' or 'xxx', the game returns '!'
+
+#a)	Python module
+#It is a ready to use stored code, which you can import and use it immediately. There are built-in, third party or your own modules. 
+#Python package: Package is a collection of specific type of modules. One big module might have submodules, which is called a package.
+
+#b)	Exceptions are error messages detected when we run a code/program. If we encounter an unknown error, it is better to terminate the program.
+
+#c)	By using following keywords, you are going to:\
+
+#d)	By using keyword ‘raise’ followed by name of the exception and keyword Error. For example , ‘raise NameError’, ‘raise ValueError’ and etc.
+
+#e)	Benefits of testing: Saving time when we work with long program/code. Checking thoroughly the program, cause manually we some errors can be missed 
+
+
